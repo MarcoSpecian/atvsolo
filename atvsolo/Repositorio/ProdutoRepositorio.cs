@@ -1,10 +1,10 @@
-﻿
-using MySql.Data.MySqlClient;
-using System.Data;
+﻿using MySql.Data.MySqlClient;
 using atvsolo.Models;
+using System.Data;
 
 namespace atvsolo.Repositorio
 {
+
     public class ProdutoRepositorio(IConfiguration configuration)
     {
         private readonly string _conexaoMySQL = configuration.GetConnectionString("ConexaoMySQL");
@@ -111,7 +111,3 @@ namespace atvsolo.Repositorio
         }
     }
 }
-
-
-
-

@@ -1,11 +1,15 @@
 ﻿@{
     ViewData["Title"] = "Home Page";
 }
-
-<div class="text-center">
-    <h1 class="display-4">Bem-Vindo</h1>
-    <p>Mercadinho do Alemão</p>
-    <video autoplay controls="controls">
-        <source src="c:\users\2mod\desktop\atvsolo\atvsolo\video\comida.mp4" type="video/mp4" />
-    </video>
-</div>
+<link href="~/css/home.css" rel="stylesheet" />
+<header>
+    <div class="text-center">
+        <div class="cor">
+            <h1 class="display-4">Bem-Vindo</h1>
+            <p>Mercadinho do Alemão</p>
+        </div>
+        <video muted autoplay loop class="video-fundo">
+            <source src="~/video/comida1.mp4" type="video/mp4" />
+        </video>
+    </div>
+</header>
